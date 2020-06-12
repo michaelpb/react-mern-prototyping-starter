@@ -15,3 +15,8 @@
 .LandingPage a {
   color: black;
 }
+
+.LandingPage-logo{
+  max-height: 500px;
+  margin-top: 40px;
+}

@@ -10,12 +10,12 @@ import WriteArticle from './components/pages/WriteArticle/WriteArticle.js';
 function App () {
   return (
     <div className="App">
-      <nav className="App-navigation">
+      {/* <nav className="App-navigation">
         <h1 className="App-title">MERN Starter</h1>
         <Link to="/">Welcome</Link>
         <Link to="/blog/">Blog</Link>
         <Link to="/write/">Write Article</Link>
-      </nav>
+      </nav> */}
 
       <div className="App-mainContent">
         <Switch>

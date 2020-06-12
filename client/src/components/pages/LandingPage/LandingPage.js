@@ -8,10 +8,10 @@ function LandingPage() {
     <div className="LandingPage">
       <header className="LandingPage-header">
         <p>
-          Kickstart Coding - Frontend React<br />
-          MERN Starter Project
+          Concerned Citizens<br />
+          <br />
+          A tool used for making letter campaigns for expressing concerns to public officials.
         </p>
-        <Link to="/blog/">Blog</Link>
         <Link to="/write/">Write article</Link>
       </header>
     </div>

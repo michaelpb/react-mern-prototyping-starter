@@ -1,5 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,400;0,500;0,700;1,600&display=swap');
+
+body {
+    background: url('./assets/minimalist-white.jpg');
+}
+
 .App {
-    background: linear-gradient(to top, #ff00cc, #333399);
+    /* background: linear-gradient(to top, #ff00cc, #333399); */
     min-height: 100vh;
     display: grid;
     grid-template-columns: 1fr minmax(auto, 800px) 1fr;
@@ -7,11 +13,12 @@
     grid-row-gap: 10px;
     grid-column-gap: 10px;
     align-items: stretch;
-}
+    font-family:'Raleway', sans-serif;
+} 
 
 .App-navigation {
     padding: 10px;
-    color: white;
+    color: black;
 }
 
 .App-sidebar {
@@ -43,7 +50,7 @@
 .App-navigation a {
     font-size: 14pt;
     text-decoration: none;
-    color: white;
+    color: black;
     font-weight: bold;
     text-shadow: 0 0 10px rgba(255, 255, 255, 0.5) inset;
 }

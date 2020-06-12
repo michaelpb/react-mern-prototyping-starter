@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom'
+import { Button } from 'kc-react-widgets';
 
 import './LandingPage.css';
 
@@ -12,7 +13,14 @@ function LandingPage() {
           <br />
           A tool used for making letter campaigns for expressing concerns to public officials.
         </p>
-        <Link to="/write/">Write article</Link>
+        <Button
+        type = "default"
+        size = "large"
+        depth = "tall"
+        shape = "square"
+        >
+        <Link to="/write/">Compose</Link>
+        </Button>
       </header>
     </div>
   );

@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom'
 import { Button } from 'kc-react-widgets';
-import logo from './logo.png';
+import logo from './logo2.png';
 
 
 import './LandingPage.css';
